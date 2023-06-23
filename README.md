@@ -39,6 +39,7 @@ Resultado: Tiempo de caida libre es de 13.82 segundos y distancia recorrida de 2
 #Ejecución
 dirección del archivo, cmd
 python MUA.py 
+se recomienda ejecutarlo en google colab para su ejecución rapida sin instalación de librerías extras para el funcionamiento de matploit 3d https://colab.research.google.com/
 
 #Autor 
 Jorge Armando García Cuevas
