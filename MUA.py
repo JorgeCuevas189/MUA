@@ -7,8 +7,8 @@ por un objeto en movimiento uniformemente acelerado
 """
 #LIBRERIAS
 import math
-#import matplotlib
-#import matplotlib.pyplot as plt
+import matplotlib
+import matplotlib.pyplot as plt
 
 #Se piden los datos al usuario
 d = float(input("Ingrese la distancia en metros: "))
@@ -41,7 +41,7 @@ d = (vi*t)+(a*(t**2))/2
 print("El tiempo en caida libre es de: ", round(t,2), "segundos")
 print("La distancia recorrida es de: ", round(d,2), "metros")
 
-"""
+
 #Definimos los valores de x, y, z
 x = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 y = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -81,6 +81,6 @@ df= d+d2
 print("El tiempo total de caida libre y movimiento uniformemente acelerado es de: ", round(tf,2), "segundos")
 print("La distancia total recorrida es de: ", round(df,2), "metros")
 
-"""
+
 input("Presione enter para salir")
 
